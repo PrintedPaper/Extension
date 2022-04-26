@@ -9,7 +9,7 @@ h1{
    color: white;
    position: absolute;
    left: 40%;
-   top: 45%;;
+   top: 0%;;
 }
 
 
@@ -23,7 +23,7 @@ h1{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: borderAnimation;
-    animation-duration: 10s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
 }
 
@@ -31,11 +31,12 @@ h1{
     0%{border-color: red;}
     10%{border-color: blue;}
     20%{border-color: indigo;}
-    40%{border-color: purple;}
-    50%{border-color: purple;}
-    60%{border-color: purple;}
-    70%{border-color: purple;}
-    80%{border-color: purple;}
-    90%{border-color: purple;}
+    30%{border-color: rgb(124, 228, 28);}
+    40%{border-color: green;}
+    50%{border-color: yellow;}
+    60%{border-color: cornflowerblue;}
+    70%{border-color: orange;}
+    80%{border-color: pink;}
+    90%{border-color: navy;}
     100%{border-color: teal;}
 }
