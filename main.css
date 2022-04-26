@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    background-color: #202124; 
+    animation-name: turnUpBrightness;
+    animation-duration: 3s;
+}
+
+h1{
+   color: white;
+   position: absolute;
+   left: 40%;
+   top: 45%;;
+}
+
+
+.Words{
+    box-sizing: border-box;
+    border: 20px;
+    border-radius: 20;
+    border-style:outset;
+    font-size: 50px;
+    background-image: linear-gradient(to right, red, blue, green,yellow,purple,indigo,cornflowerblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: borderAnimation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes borderAnimation {
+    0%{border-color: red;}
+    25%{border-color: blue;}
+    50%{border-color: indigo;}
+    75%{border-color: purple;}
+    100%{border-color: teal;}
+}
