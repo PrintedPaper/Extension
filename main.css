@@ -1,3 +1,8 @@
+body,html{
+    min-width: 100%;
+}
+
+
 body{
     display: flex;
     background-color: #202124; 
@@ -5,12 +10,19 @@ body{
     animation-duration: 3s;
 }
 
+.Image{
+    background-image: url("https://cdn.discordapp.com/attachments/653115942536216597/952024050610372628/unknown.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:200px;
+}
 h1{
    color: white;
    position: absolute;
    left: 40%;
    top: 0%;;
 }
+
 
 
 .Words{
