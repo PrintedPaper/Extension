@@ -14,7 +14,7 @@ h1{
    top: 0%;;
 }
 
-.Search{
+#search{
     position: absolute;
     left: 39%;
     top: 20%;
@@ -23,7 +23,7 @@ h1{
 
 .Words{
     box-sizing: border-box;
-    border: 20px;
+    border: 15px;
     border-radius: 20;
     border-style:outset;
     font-size: 50px;
