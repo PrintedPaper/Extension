@@ -1,2 +1,2 @@
 # FunExtension
-An Extension that is made for fun
+An extension that is made for fun
