@@ -1,6 +1,6 @@
 {
     "name": "THE EXTENSION",
-    "description": "When creating a new tab it makes \"Google\" more visual and has a darker background than light mode",
+    "description": "When creating a new tab it makes \"Google\" more visual and has a weird image background",
     "version": "1.3",
     "manifest_version": 3,
     "chrome_url_overrides": {"newtab": "darktab.html"},
@@ -9,5 +9,9 @@
             "matches": ["<all_urls>"],
             "js": ["index.js"]
         }
-    ]
+    ],
+    "browser_action":{
+        "default_popup": "darktab.html",
+        "default_title": "Tab"
+    }
 }    
