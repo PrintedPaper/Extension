@@ -55,3 +55,7 @@ button{
     margin: 10px;
 }
 
+button:hover{
+    cursor: pointer;;
+}
+
