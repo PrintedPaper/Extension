@@ -10,10 +10,3 @@ switch(window.location.hostname){
         document.head.innerHTML = style();
         break;
 }
-
-function load(){
-    var btn = document.getElementById("grey");
-    btn.addEventListener('click', e =>{
-        console.log("clicked")
-    })
-}
