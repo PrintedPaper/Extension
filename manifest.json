@@ -12,6 +12,10 @@
     ],
     "action":{
         "default_popup": "darktab.html",
-        "default_title": "Tab"
+        "default_title": "Icon"
+    },
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
     }
 }    
