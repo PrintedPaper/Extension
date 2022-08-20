@@ -4,11 +4,10 @@ var style = () => {
     }`
 }
 
-alert("Console")
 
 switch(window.location.hostname){
     case "www.youtube.com":
-        document.body.innerHTML = "<h1> Get back to work <h1>";
-        document.head.innerHTML = style();
+        document.body.innerText = `Get back to work`;
+        document.head.innerText = style();
         break;
 }
